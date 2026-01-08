@@ -1,0 +1,443 @@
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0px
+}
+
+a:link {
+    color: black;
+    font-style: normal;
+}
+
+a:hover {
+    color: rgb(120, 0, 0);
+}
+
+a:visited {
+    color: rgb(120  , 0, 0);
+}
+
+body {
+    padding-bottom: 100px
+    
+}
+
+.logo-black {
+    height: 60px;
+}
+.main-img {
+    width: 500px;
+}
+
+.car-neon {
+    height: 20px;
+}
+    
+.mode-box {
+    flex: 1;
+    min-width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.dark-mode-box {
+    flex: 1;
+    min-width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.spacer-box {
+    flex: 1;
+}
+
+.info-box {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.contact-box {
+    display: flex;
+    flex: 1;
+    min-width: 100px;
+}
+.about-logo {
+    height: 40px;
+}
+
+.shop-logo {
+    height: 40px;
+}
+
+.shop-box {
+    display: flex;
+    height: 40px;
+}
+
+.about-box {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+}
+
+.left-box {
+    flex: 1
+}
+
+.pei-left-box {
+    flex: 1;
+padding-right: 20px;
+}
+
+.middle-box {
+    flex: 1
+
+}
+
+.right-box {
+    flex: 2;
+    text-align: right;
+    font-size: 17px;
+}
+
+.lula-right-box {
+    flex: 2;
+    text-align: right;
+    max-width: 450px;
+    min-width: 300px;
+}
+
+.white-text {
+    flex: 2;
+    text-align: right;
+    font-size: 17px;
+    color: white;
+}
+
+.sml-right-box {
+    flex: 0.2;
+}
+
+.home-content {
+    margin-top: 74px;
+}
+
+.home-image {
+    height: 800px;
+}
+
+.sml-home-image {
+    height: 400px;
+    margin-right: 20px;
+}
+
+.sml-uppers-image {
+    height: 400px;
+    margin-right: 50px;
+}
+
+.uppers-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: roboto, ariel
+}
+
+.index-logo {
+    width: 150px;
+}
+
+.box-container {
+    z-index: 10;
+}
+
+.bg-img {
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+            display: flex;
+            flex-direction: row;
+           justify-content: space-between;
+           padding-top: 20px;
+           left: 0;
+           right: 0;
+        }
+
+        .left-box {
+            flex: 1;
+
+        }
+
+        .middle-box {
+            flex: 1
+
+        }
+
+        .right-box {
+            flex: 1;
+        }
+
+        .home-content {
+            margin-top: 150px;
+        }
+
+.summer-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+}
+.summer-left-image {
+    flex: 1;
+    height: 350px;
+}
+
+.summer-left-box {
+    margin-right: 40px;
+
+}
+
+.iel-right-box {
+    margin-top: 100px;
+}
+
+.iel-img {
+    height: 450px;
+}
+
+.yellow-darcey-box {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.darcey-yellow-image {
+    height: 750px;
+}
+
+/* QUOTE */
+
+.tea-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   margin-top: 70px;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+   margin-left: 25px;
+}
+
+.dark-tea-container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   margin-top: 70px;
+   padding-top: 20px;
+   left: 0;
+   right: 0;
+   margin-left: 25px;
+   color: white;
+}
+
+.quote-container {
+    display: flex;
+    margin-top: 40px;
+    font-family: didot;
+}
+
+.quote-div-left {
+    flex: 2;
+}
+
+.quote-div-right {
+    flex: 3;
+}
+
+.fiorucci-bottom-image {
+    height: 600px;
+
+}
+
+/* ABOUT PAGE SECTION */
+
+.about-page-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 900px;
+}
+
+.about-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.about-left-box {
+    flex: 1;
+
+}
+
+.about-right-box {
+    flex: 1;
+}
+
+.top-about-spacer {
+    flex: 2;
+    text-align: center;
+    font-family: didot
+}
+
+.mail-to-box {
+    flex: 0.2;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ig-box {
+    flex: 1;
+    text-align: center;
+    color: black;
+}
+
+.about-content {
+    flex: 1s;
+    color: black;
+    
+}
+
+.bottom-about-spacer {
+    flex: 1;
+}
+
+.about-content-img {
+    height: 350px;
+}
+
+.arnaldo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.arnaldo-top {
+    flex: 0.5;
+}
+
+.arnaldo-bottom {
+    flex: 1;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: initial;
+    padding-bottom: 10px;
+}
+
+.one {
+    flex: 1;
+}
+
+.three {
+    flex: 1;
+}
+
+.middle-col {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+
+.inner-top {
+    flex: 2;
+    background-color: beige;
+}
+
+.about-link {
+    flex: 1;
+    text-align: center;
+}
+
+.inner-numbers {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.inner-bottom {
+    flex: 1;
+}
+
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+body {
+    font-family: Life, Helvetica, "Open Sans", Arial, sans-serif;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hover-text {
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.hover-image {
+    display: none; /* Hide the image by default */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Set the desired width */
+    height: auto;
+    z-index: 1000;
+}
+
+.hover-text:hover + .hover-image {
+    display: block; /* Show the image when hovering over the text */
+}
